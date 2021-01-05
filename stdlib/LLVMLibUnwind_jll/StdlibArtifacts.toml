@@ -1,0 +1,143 @@
+[[LLVMLibUnwind]]
+arch = "aarch64"
+git-tree-sha1 = "d48f8172239e74a0cfd514289a90e1bd3f3b2e26"
+os = "macos"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "7668c3382f0d75b232e190e212f64f553ed102e15e8ebe4c3492239a401b7d52"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.aarch64-apple-darwin.tar.gz"
+[[LLVMLibUnwind]]
+arch = "aarch64"
+git-tree-sha1 = "9bd17d6d399e9edaa04ce71db9236b73c8d0d66c"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "1133ac967a96fb0e042e5c21a0f613802b7d676f33ac070f0161dc7b6bc3ee51"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.aarch64-linux-gnu.tar.gz"
+[[LLVMLibUnwind]]
+arch = "aarch64"
+git-tree-sha1 = "10fb54e8b93b84285d033b384c9d45166eb189d3"
+libc = "musl"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "93357aa1270df700503c8702419c5f161eae49dbe615644050cecb676f109a3d"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.aarch64-linux-musl.tar.gz"
+[[LLVMLibUnwind]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5798ca71b538a5f263aef51e5d19967b8d6e2fc6"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "76753f0b365bf1e5ac7be130c899b4e76bfc25e23cea7fc50a4098c676c91580"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.armv6l-linux-gnueabihf.tar.gz"
+[[LLVMLibUnwind]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8b1614eeb9c68329cf948e71e0d4ed602748eb0b"
+libc = "musl"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "ece3b1ee104a993a77eb2ff1ff8b7b05e34f11340d4e58dbe7e023ded70044ec"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.armv6l-linux-musleabihf.tar.gz"
+[[LLVMLibUnwind]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f1cfe215b7a3d02c6da149e76a1b1f5ed7a67efb"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "4a41b353cc9f89ebcd0f3b145450ae4779f45b031fe4fc834e02eb6caa830576"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[LLVMLibUnwind]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "78e735c1b02913b92bf21b39f8430b6374ddc2d8"
+libc = "musl"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "90661ce5dd89314a2054d7fe518bb79e8efcea186d19b8a65de0bbadd52e39e4"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.armv7l-linux-musleabihf.tar.gz"
+[[LLVMLibUnwind]]
+arch = "i686"
+git-tree-sha1 = "0b7fae4b015110460392d3f908f241ffae6ab202"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "78e89e8fb486afc8ae12c39c848451d952c6cad9fd37ed57106615bb69d47e02"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.i686-linux-gnu.tar.gz"
+[[LLVMLibUnwind]]
+arch = "i686"
+git-tree-sha1 = "799c8fd1e479c50e542a3281d885b40eaea671a4"
+libc = "musl"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "f9da93fca223143b793d5ee9ffe0e7f8ebb1ef9c377e6ad7da1f5bf785bac3cb"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.i686-linux-musl.tar.gz"
+[[LLVMLibUnwind]]
+arch = "i686"
+git-tree-sha1 = "740d6b2d9644588ecccd928c6166b222165487cc"
+os = "windows"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "7819e44ca5379a4d3866ac63c6b998a237b14935ada4521f5de40fed3e0261b2"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.i686-w64-mingw32.tar.gz"
+[[LLVMLibUnwind]]
+arch = "powerpc64le"
+git-tree-sha1 = "9f05524a72e6341f313453b565650a30777d2e07"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "c933725df85169c238b3a30d48a4414888d884af4bf7ef84d36ed0f849dd6b52"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.powerpc64le-linux-gnu.tar.gz"
+[[LLVMLibUnwind]]
+arch = "x86_64"
+git-tree-sha1 = "52ef81bd984f6331b9cf8a35643b13db36d3aa4e"
+os = "macos"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "9490f3bd93fbf9b3ea7ca45eceacc005fbae9a83400d44e47284a3cd63c5c8ad"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.x86_64-apple-darwin.tar.gz"
+[[LLVMLibUnwind]]
+arch = "x86_64"
+git-tree-sha1 = "cd456341cb0d6f521a7f29bca2db6cc1be294f09"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "686fac09fc8b988f9a217e9a0a40441af3df7cf61075311bf242a00cc71eb0ff"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.x86_64-linux-gnu.tar.gz"
+[[LLVMLibUnwind]]
+arch = "x86_64"
+git-tree-sha1 = "076531f0c16abc8ecbdd509d45bd48bec8bef72e"
+libc = "musl"
+os = "linux"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "185f13dae757ead895775a4fdb745a0a3c3d8bd18a0c7fe44f2efcbe7d1b3772"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.x86_64-linux-musl.tar.gz"
+[[LLVMLibUnwind]]
+arch = "x86_64"
+git-tree-sha1 = "f84ab44de30713722e5d9a66731752bdcf45d3fe"
+os = "freebsd"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "391f66c4f3a6174a35c73f014730e64b994fd548392efda84f848374b66c4cdb"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.x86_64-unknown-freebsd.tar.gz"
+[[LLVMLibUnwind]]
+arch = "x86_64"
+git-tree-sha1 = "fd2a5a9c3ce76b85db2028bd17b3a2ac1ab46ac7"
+os = "windows"
+
+    [[LLVMLibUnwind.download]]
+    sha256 = "f96071ac2235cdf206df540d22f78564ed4d35d72715b395051a9a2275461982"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMLibUnwind_jll.jl/releases/download/LLVMLibUnwind-v11.0.0+0/LLVMLibUnwind.v11.0.0.x86_64-w64-mingw32.tar.gz"

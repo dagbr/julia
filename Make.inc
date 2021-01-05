@@ -1016,8 +1016,8 @@ JCPPFLAGS+=-DSYSTEM_LIBUNWIND
 endif
 else
 ifeq ($(OS),Darwin)
-LIBUNWIND:=-losxunwind
-JCPPFLAGS+=-DLIBOSXUNWIND
+LIBUNWIND:=-lunwind
+JCPPFLAGS+=-DLLVMLIBUNWIND
 else
 LIBUNWIND:=-lunwind
 endif
