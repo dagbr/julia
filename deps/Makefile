@@ -168,9 +168,6 @@ DEP_LIBS_STAGED := $(DEP_LIBS)
 DEP_LIBS_STAGED := $(filter-out csl,$(DEP_LIBS_STAGED))
 DEP_LIBS_STAGED := $(filter-out suitesparse,$(DEP_LIBS_STAGED))
 DEP_LIBS_STAGED := $(filter-out suitesparse-wrapper,$(DEP_LIBS_STAGED))
-ifneq ($(USE_BINARYBUILDER_LIBUNWIND),1)
-DEP_LIBS_STAGED := $(filter-out llvmunwind,$(DEP_LIBS_STAGED))
-endif
 
 
 ## Common build target prefixes
